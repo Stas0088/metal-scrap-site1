@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Прийом чорного та кольорового металобрухту у Слов'янську. Самовивіз, демонтаж. Замовлення 24/7.">
+    <meta name="keywords" content="металобрухт, прийом металобрухту, Слов'янськ, демонтаж металу, самовивіз металобрухту">
+    <meta name="author" content="Stas0088">
+    <title>Прийом металобрухту у Слов'янську</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .contacts {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .image {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .emphasis {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        form {
+            margin-top: 30px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #d9534f;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #c9302c;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Прийом металобрухту у Слов'янську</h1>
+        <p>Приймаємо чорний та кольоровий металобрухт. <span class="emphasis">Самовивіз</span> та <span class="emphasis">демонтаж</span>.</p>
+        <p>Замовити послугу та залишити заявку можна <span class="emphasis">цілодобово</span> за вказаними номерами телефонів!</p>
+        <div class="image">
+            <img src="image.jpeg" alt="Рекламний банер послуг прийому металобрухту">
+        </div>
+        <div class="contacts">
+            <p>Телефони для замовлення:</p>
+            <p><strong>099 257 38 88</strong></p>
+            <p><strong>099 433 28 88</strong></p>
+        </div>
+        <form action="submit-form.php" method="POST">
+            <h2>Залиште заявку</h2>
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я" required>
+            
+            <label for="phone">Ваш номер телефону:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Введіть ваш номер телефону" required>
+            
+            <label for="message">Ваше повідомлення:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Напишіть ваше повідомлення"></textarea>
+            
+            <button type="submit">Надіслати</button>
+        </form>
+    </div>
+</body>
+</html>
